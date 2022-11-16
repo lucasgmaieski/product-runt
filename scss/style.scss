@@ -246,6 +246,40 @@ body {
         }
     }
 
+    // Página sobre
+    .sobre-equipe{
+        padding: 40px 0;
+        .row {
+            margin: 0;
+            .equipe-sobre-texto{
+                padding: 0 20px;
+                h2{
+                    font-size: 45px;
+                    color: #202020;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #202020;
+                }
+            }
+            .equipe-sobre-img{
+                img{
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+    .sobre-galeria{
+        padding: 100px 0;
+        background-color: #f4f9fd;
+        &-box{
+            padding: 0 15px;
+            margin-bottom: 20px;
+        }
+    }
+
 }
 
 @media (max-width: 768px){

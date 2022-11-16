@@ -30,20 +30,6 @@
 </head>
 
 <body>
-    <!-- <section class="container topo">
-        <div class="center">
-            <header>
-                <div class="logo">
-                    <img src="images/logo.png" alt="Logo">
-                </div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </header>
-        </div>
-    </section> -->
     <header class="topo">
         <div class="container-md ">
             <nav class="navbar navbar-expand-md justify-content-bettwen ">
@@ -61,7 +47,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="sobre.php">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
@@ -84,6 +70,7 @@
         </div>
         <div class="circle"><i class="fas fa-angle-down"></i></div>
     </header>
+
     <section class="clientes-slider">
 
         <div class="center">
