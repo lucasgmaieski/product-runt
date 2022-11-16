@@ -6,22 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/monitor.ico" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap-utilities.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
@@ -35,7 +31,7 @@
         <div class="container-md ">
             <nav class="navbar navbar-expand-md justify-content-bettwen ">
                 <a href="index.php" class="navbar-brand">
-                    <img id="logo" src="images/logo.png" alt="Luks Agency">
+                    <img id="logo" src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="Product Runt">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -65,7 +61,7 @@
                         demonstração</a>
                 </div>
                 <div class="col-12 col-sm-6 time-imagem">
-                    <img src="images/ilustracao.png" alt="Ilustração" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao.png" alt="Ilustração" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -76,11 +72,11 @@
 
         <div class="center">
             <div class="slider-container px-2">
-                <img src="images/amazon.png" alt="Logo Amazon">
-                <img src="images/costco.png" alt="Logo Costco">
-                <img src="images/dominos.png" alt="Logo Domminos">
-                <img src="images/uber.png" alt="Logo Uber">
-                <img src="images/walmart.png" alt="Logo Walmart">
+                <img src="<?php echo get_template_directory_uri();?>/images/amazon.png" alt="Logo Amazon">
+                <img src="<?php echo get_template_directory_uri();?>/images/costco.png" alt="Logo Costco">
+                <img src="<?php echo get_template_directory_uri();?>/images/dominos.png" alt="Logo Domminos">
+                <img src="<?php echo get_template_directory_uri();?>/images/uber.png" alt="Logo Uber">
+                <img src="<?php echo get_template_directory_uri();?>/images/walmart.png" alt="Logo Walmart">
             </div>
         </div>
     </section>
@@ -90,27 +86,27 @@
             <h2>Contribuímos de ponta a ponta</h2>
             <div class="icons-diferenciais d-flex flex-wrap gap-3 justify-content-center">
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="images/ilustracao-01.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-01.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="images/ilustracao-02.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-02.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="images/ilustracao-03.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-03.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="images/ilustracao-03.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-03.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="images/ilustracao-03.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-03.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
@@ -132,7 +128,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-12 time-imagem">
-                <img src="images/ilustracao-04.png" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-04.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
@@ -146,21 +142,21 @@
                         illum iste perferendis, a tempora eaque aliquid praesentium? A numquam laudantium harum ab
                         officia tenetur vero libero.</p>
                     <p>Lucas Maieski</p>
-                    <img src="images/homem.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/images/homem.jpg" alt="">
                 </div>
                 <div class="depoimento-single">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem corrupti fugit nesciunt ducimus
                         illum iste perferendis, a tempora eaque aliquid praesentium? A numquam laudantium harum ab
                         officia tenetur vero libero.</p>
                     <p>Lucas Maieski</p>
-                    <img src="images/homem.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/images/homem.jpg" alt="">
                 </div>
                 <div class="depoimento-single">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem corrupti fugit nesciunt ducimus
                         illum iste perferendis, a tempora eaque aliquid praesentium? A numquam laudantium harum ab
                         officia tenetur vero libero.</p>
                     <p>Lucas Maieski</p>
-                    <img src="images/homem.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/images/homem.jpg" alt="">
                 </div>
 
             </div>
@@ -197,15 +193,15 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 box-logo-footer">
-                    <a href="#"><img src="images/logo-dummy.png" alt="Logo" class="d-inline"></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri();?>/images/logo-dummy.png" alt="Logo" class="d-inline"></a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script type="module" src="js/slick.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script type="module" src="<?php echo get_template_directory_uri();?>/js/slick.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/jquery.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/slick.min.js"></script>
     <script type="text/javascript">
     $('.clientes-slider .slider-container').slick({
         dots: true,
