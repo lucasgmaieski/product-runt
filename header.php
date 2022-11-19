@@ -3,6 +3,7 @@
 
 <head>
     <?php wp_head(); ?>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,15 +24,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
-    <title>Lucas Dev</title>
+    <title><?php echo $title; ?></title>
 
+    <?php 
+        $title = get_the_title();
+        if($title == ''){
+            $title = 'Home';
+        }
+    ?>
 </head>
 
 <body>
     <header class="topo">
         <div class="container-md ">
             <nav class="navbar navbar-expand-md justify-content-bettwen ">
-                <a href="index.php" class="navbar-brand">
+                <a href="<?php echo '/product-runt-wp/home' ?> " class="navbar-brand">
                     <img id="logo" src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="Product Runt">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,13 +49,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link active" aria-current="page" href="product-runt-wp/home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.php">Sobre</a>
+                            <a class="nav-link" href="sobre/">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.php">Contato</a>
+                            <a class="nav-link" href="product-runt-wp/contato">Contato</a>
                         </li>
 
                     </ul>

@@ -1,5 +1,9 @@
-
-
+<?php 
+    //Template Name: Contato
+?>
+</div>
+</header>
+<?php get_header(); ?>
     <section class="container-lg contato">
         <div class="row">
             <div class="col-md-6 contato-info">
@@ -30,4 +34,4 @@
         </div>
     </section>
 
-   
+<?php get_footer();?>
