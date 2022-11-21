@@ -295,6 +295,9 @@ body .contato-info p {
   color: #202020;
   font-size: 15px;
 }
+body .contato-info p i {
+  padding-right: 10px;
+}
 body .contato-form {
   padding: 0 30px;
   margin-top: 40px;

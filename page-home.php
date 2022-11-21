@@ -4,7 +4,7 @@
 <?php get_header(); ?>
             <div class="row d-flex align-items-center mt-3 pb-4">
                 <div class="col-12 col-sm-6 time-descricao">
-                    <h2>Melhore a comunicação com seu cliente e time.</h2>
+                    <h2><?php echo the_field('chamada_topo'); ?></h2>
                     <p>Consultoria especializada em startups, empresase e principalmente pessoas.</p>
                     <a href="https://lucasgmaieski.github.io/luks-agency/index.html" targer="_blank">Ver
                         demonstração</a>
@@ -35,6 +35,7 @@
                 <img src="<?php echo get_template_directory_uri();?>/images/dominos.png" alt="Logo Domminos">
                 <img src="<?php echo get_template_directory_uri();?>/images/uber.png" alt="Logo Uber">
                 <img src="<?php echo get_template_directory_uri();?>/images/walmart.png" alt="Logo Walmart">
+                <img src="<?php the_field('imagem_topo'); ?>" alt="">
             </div>
         </div>
     </section>
@@ -76,13 +77,7 @@
         <div class="container-lg d-flex flex-wrap gap-5  align-items-center justify-content-center">
             <div class="col-md-5 col-sm-12 time-info">
                 <h2>Um time experiente, comunicador e coeso.</h2>
-                <p>A Product Runt acredita que marcas fortes são contruídas apartir de transformações importantes e
-                    positivas na vida dos consumidores. Exatamente como uma conversa que ganha forma, a ideia vira
-                    flâmula.
-                    <br>
-                    Comunicar bem , de forma coerente e clara não é algo fácil e estamos aqui para ajudar você e seu
-                    time. Você escolhe, remoto ou presencial, para seu cliente ou seu público interno, você determina
-                    como vamos te ajudar.
+                <p><?php  the_field('sobre_home');?>
                 </p>
             </div>
             <div class="col-md-6 col-sm-12 time-imagem">

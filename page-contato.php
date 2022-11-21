@@ -1,17 +1,29 @@
 <?php 
     //Template Name: Contato
 ?>
+<?php get_header(); ?>
 </div>
 </header>
-<?php get_header(); ?>
+
     <section class="container-lg contato">
         <div class="row">
             <div class="col-md-6 contato-info">
                 <h2>A mais importante,<br>primeira conversa. </h2>
-                <p><strong>Telefone:</strong>  (48) 9901-3620</p>
-                <p><strong>Telefone:</strong>  (48) 9901-3620</p>
-                <p><strong>Telefone:</strong>  (48) 9901-3620</p>
+                <br>
+                <?php 
+                    while(have_rows('nome_tipo_contato')){
+                       the_row();
+                       if(get_sub_field('categoria') == 'Telefone'){
+                ?>
+                <p>
+                    <strong><i class="fa-sharp fa-solid fa-phone"></i><?php echo get_sub_field('categoria'); ?>:</strong> <?php echo get_sub_field('valor'); ?>
+                </p>
+                <?php } else { ?>
+                <p>
+                    <strong><i class="fa-solid fa-envelope"></i><?php echo get_sub_field('categoria'); ?>:</strong> <?php echo get_sub_field('valor'); ?>
+                </p>
 
+                <?php  }} ?>
                 <div class="mapa-container" id="mapa">
                     <div id="mapa"></div>
                 </div>

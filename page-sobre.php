@@ -9,11 +9,11 @@
 <section class="sobre-equipe container">
     <div class=" row justify-content-center">
         <div class="col-md-6 col-10 equipe-sobre-texto">
-            <h2>Uma equipe estratégica para um trabalho incrível</h2>
-            <p>Com foco permanente na geração de resultados para empresas, atuamos na consultoria estratégica e na criação e implementação de soluções de comunicação e criativas, consistentes e adequadas às necessidades e características de cada companhia. Para isso, trabalhamos sempre em parceria e colaboração com interfaces e executivos das organizações, mantendo completo envolvimento com os negócios de cada cliente.</p>
+            <h2> <?php the_field('titulo_sobre'); ?> </h2>
+            <p> <?php the_field('texto_sobre'); ?> </p>
         </div>
         <div class="col-md-6 col-10 equipe-sobre-img">
-            <img src="<?php echo get_template_directory_uri();?>/images/foto-equipe-01.png" alt="Foto da Equipe" class="img-fluid">
+            <img src="<?php the_field('imagem_sobre'); ?>" alt="Foto da Equipe" class="img-fluid">
         </div>
     </div>
 </section>
