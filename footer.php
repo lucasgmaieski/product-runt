@@ -9,9 +9,8 @@
         <section class="metodologia">
             <div class="container">
                 <h2>Conheça nossa Metodologia</h2>
-                <p>O que acha de fazermos o que mais gostamos de fazer? Conversar <br> Entre em contato por e-mail ou
-                    telefone.</p>
-                <a href="/contato"> Entrar em contato </a>
+                <p><?php the_field('texto_metodologia'); ?></p>
+                <a href="product-runt/contato"> Entrar em contato </a>
             </div>
         </section>
 <?php 

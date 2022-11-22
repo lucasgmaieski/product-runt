@@ -57,6 +57,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="product-runt-wp/contato">Contato</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-runt-wp/helper">Helper</a>
+                        </li>
 
                     </ul>
                 </div>
