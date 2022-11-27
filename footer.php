@@ -4,7 +4,7 @@
 
 <footer <?php if($title == 'Contato'){ echo 'style="padding:20px 0;"';} ?>>
 <?php 
-    if($title != 'Contato' && is_404() == false){
+    if($title != 'Contato' && is_404() == false && $title != 'Helper'){
 ?>
         <section class="metodologia">
             <div class="container">
