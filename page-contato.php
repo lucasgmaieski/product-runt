@@ -1,12 +1,20 @@
 <?php 
     //Template Name: Contato
 ?>
+
 <?php get_header(); ?>
+<?php ?>
 </div>
 </header>
 
     <section class="container-lg contato">
         <div class="row">
+        <?php 
+            // com require se der um erro ele para todo o processamento da página
+            require "receiver.php";
+            //com include se der erro ele só mostra uma mensagem de aviso
+            include "receiver.php";
+        ?>
             <div class="col-md-6 contato-info">
                 <h2>A mais importante,<br>primeira conversa. </h2>
                 <br>
@@ -29,10 +37,10 @@
                 </div>
             </div>
             <div class="col-md-6 contato-form">
-                <form action="">
+                <form method="POST">
                     <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="E-mail">
-                    <input type="text" placeholder="Telefone">
+                    <input type="text" name="email" placeholder="E-mail">
+                    <input type="text" name="telefone" placeholder="Telefone">
                     <select name="" id="">
                         <option >Geral</option>
                         <option >Suporte</option>
@@ -40,6 +48,7 @@
                     <textarea placeholder="Mensagem"></textarea>
                     <input type="submit" value="Enviar">
                 </form>
+
             </div>
 
             
