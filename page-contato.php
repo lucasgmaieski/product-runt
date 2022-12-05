@@ -38,7 +38,7 @@
             </div>
             <div class="col-md-6 contato-form">
                 <form method="POST">
-                    <input type="text" placeholder="Nome">
+                    <input type="text" name="nome" placeholder="Nome">
                     <input type="text" name="email" placeholder="E-mail">
                     <input type="text" name="telefone" placeholder="Telefone">
                     <select name="" id="">
@@ -48,7 +48,7 @@
                     <textarea placeholder="Mensagem"></textarea>
                     <input type="submit" value="Enviar">
                 </form>
-
+                <?php criptografarNome($_POST['nome']) ?>
             </div>
 
             

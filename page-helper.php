@@ -28,7 +28,15 @@
             <p>Para usar os campos  the_field('nome');</p>
             <h3>shortcode do meu plugin</h3>
             <?php the_content(); ?>
-
+            <p>array_keys($array); -> cria um array só com as chaves</p>
+            <p>array_values($array); -> cria um array só com os valores</p>
+            <p>array_pop($array); -> remove o ultimo elemento do array</p>
+            <p>array_shift($array); -> remove o primeiro elemento do array</p>
+            <p>array_asort($array); -> ordena o array mas mantem a associação entre indices e valores </p>
+            <p>array_arsort($array); -> ordena o array decrescente mas mantem a associação entre indices e valores </p>
+            <p>.count($array); -> conta os elementos do array</p>
+            <p>inarray("Lucas", $array); -> verifica se existe Lucas no array </p>
+    
 <?php   }
     }
 
