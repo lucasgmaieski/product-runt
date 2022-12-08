@@ -10,7 +10,7 @@
                         demonstração</a>
                 </div>
                 <div class="col-12 col-sm-6 time-imagem">
-                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao.png" alt="Ilustração" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao.png" alt="Ilustração" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -30,11 +30,11 @@
 
         <div class="center">
             <div class="slider-container px-2">
-                <img src="<?php echo get_template_directory_uri();?>/images/amazon.png" alt="Logo Amazon">
-                <img src="<?php echo get_template_directory_uri();?>/images/costco.png" alt="Logo Costco">
-                <img src="<?php echo get_template_directory_uri();?>/images/dominos.png" alt="Logo Domminos">
-                <img src="<?php echo get_template_directory_uri();?>/images/uber.png" alt="Logo Uber">
-                <img src="<?php echo get_template_directory_uri();?>/images/walmart.png" alt="Logo Walmart">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/amazon.png" alt="Logo Amazon">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/costco.png" alt="Logo Costco">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/dominos.png" alt="Logo Domminos">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/uber.png" alt="Logo Uber">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/walmart.png" alt="Logo Walmart">
                 <img src="<?php the_field('imagem_topo'); ?>" alt="">
             </div>
         </div>
@@ -45,27 +45,27 @@
             <h2>Contribuímos de ponta a ponta</h2>
             <div class="icons-diferenciais d-flex flex-wrap gap-3 justify-content-center">
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-01.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao-01.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-02.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao-02.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-03.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao-03.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-03.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao-03.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
                 <div class="box-single-diferenciais col-md-3 col-sm-5 text-center">
-                    <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-03.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao-03.png" alt="" class="img-fluid">
                     <h3>Ambientes Mobile</h3>
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div>
@@ -81,7 +81,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-12 time-imagem">
-                <img src="<?php echo get_template_directory_uri();?>/images/ilustracao-04.png" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/ilustracao-04.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
@@ -95,21 +95,21 @@
                         illum iste perferendis, a tempora eaque aliquid praesentium? A numquam laudantium harum ab
                         officia tenetur vero libero.</p>
                     <p>Lucas Maieski</p>
-                    <img src="<?php echo get_template_directory_uri();?>/images/homem.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/homem.jpg" alt="">
                 </div>
                 <div class="depoimento-single">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem corrupti fugit nesciunt ducimus
                         illum iste perferendis, a tempora eaque aliquid praesentium? A numquam laudantium harum ab
                         officia tenetur vero libero.</p>
                     <p>Lucas Maieski</p>
-                    <img src="<?php echo get_template_directory_uri();?>/images/homem.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/homem.jpg" alt="">
                 </div>
                 <div class="depoimento-single">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem corrupti fugit nesciunt ducimus
                         illum iste perferendis, a tempora eaque aliquid praesentium? A numquam laudantium harum ab
                         officia tenetur vero libero.</p>
                     <p>Lucas Maieski</p>
-                    <img src="<?php echo get_template_directory_uri();?>/images/homem.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/homem.jpg" alt="">
                 </div>
 
             </div>

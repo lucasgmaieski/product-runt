@@ -7,6 +7,9 @@
 </header>
 <div class="fun-wp container">
 <?php 
+    //search
+    get_search_form(); 
+
     if(have_posts()){
         while(have_posts()) {
             the_post();

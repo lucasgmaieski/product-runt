@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 box-logo-footer">
-                    <a href="<?php echo '/product-runt-wp' ?>"><img src="<?php echo get_template_directory_uri();?>/images/logo-dummy.png" alt="Logo" class="d-inline"></a>
+                    <a href="<?php echo '/product-runt-wp' ?>"><img src="<?php echo get_template_directory_uri();?>/assets/images/logo-dummy.png" alt="Logo" class="d-inline"></a>
                 </div>
             </div>
         </div>
@@ -44,9 +44,9 @@
 
     <?php wp_footer(); ?>
 
-    <script type="module" src="<?php echo get_template_directory_uri();?>/js/slick.js"></script>
-    <script src="<?php echo get_template_directory_uri();?>/js/jquery.js"></script>
-    <script src="<?php echo get_template_directory_uri();?>/js/slick.min.js"></script>
+    <script type="module" src="<?php echo get_template_directory_uri();?>/assets/js/slick.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/slick.min.js"></script>
     <script type="text/javascript">
     $('.clientes-slider .slider-container').slick({
         dots: true,

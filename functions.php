@@ -20,4 +20,4 @@ function pr_theme_styles(){
 
 
 //Hooks
-add_action('wp_enqueue_scripts', 'tt_theme_styles');
+add_action('wp_enqueue_scripts', 'pr_theme_styles');

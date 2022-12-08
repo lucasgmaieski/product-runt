@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/monitor.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/monitor.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- fonts -->
@@ -39,7 +39,7 @@
         <div class="container-md ">
             <nav class="navbar navbar-expand-md justify-content-bettwen ">
                 <a href="<?php echo '/product-runt-wp/home' ?> " class="navbar-brand">
-                    <img id="logo" src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="Product Runt">
+                    <img id="logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="Product Runt">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
