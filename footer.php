@@ -78,8 +78,6 @@
         slidesToShow: 1,
     });
     </script>
-    <!-- <script src="css/bootstrap/js/bootstrap.js"></script>
-    <script src="css/bootstrap/js/bootstrap.bundle.js"></script> -->
 </body>
 
 
