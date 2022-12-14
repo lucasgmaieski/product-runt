@@ -21,3 +21,30 @@ function pr_theme_styles(){
 
 //Hooks
 add_action('wp_enqueue_scripts', 'pr_theme_styles');
+
+// Menu dinamico
+function MenuPrincipal() {
+    $out = '';
+    $menuitems = wp_get_nav_menu_items(2);
+    $count = 0;
+
+    if($menuitems):
+        $out .= '<ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0" >';
+            foreach ($menuitems as $item) :
+                $link = $item->url;
+                $title = $item->title;
+
+                if (!$item->menu_item_parent) :
+                    $parent_id = $item->ID;
+                    // $out .= '<li><a href="'. $link .'" title="'. $title .'">'. $title .'</a></li>';
+                    $out .= '<li class="nav-item"><a class="nav-link"  href="'. $link .'" title="'. $title .'">'. $title .'</a></li>';
+        
+                endif;
+                   
+                $count++;
+            endforeach;
+        $out .= '</ul>';
+    endif;
+
+    return $out;
+}
