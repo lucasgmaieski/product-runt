@@ -64,3 +64,33 @@
                     </ul>
                 </div>
             </nav>
+
+
+
+<!-- 
+            <header>
+		<div class="color-bar">
+			<?php echo BorderHeaderAndFooter(); ?>
+		</div>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container container-top">
+				<a class="navbar-brand " href="<?php echo get_home_url(); ?>">
+					<img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="Logo Policlínica">
+				</a>
+				<div class="block-menu">
+					<div id="nav-icon2">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<?php wp_nav_menu(); ?>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header> -->
