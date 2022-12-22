@@ -40,6 +40,21 @@
             <p>.count($array); -> conta os elementos do array</p>
             <p>inarray("Lucas", $array); -> verifica se existe Lucas no array </p>
     
+            <p>
+                    <?php if(comments_open()){
+                        ?>
+                        <!-- 1º parametro quando tem 0 comentarios:  '0 comentários'
+                        2ºparametro quando é 1:  'um comentário' 
+                        3ºparametro mais de 1:  '% comentários'-->
+                        <hr>
+                        <p>
+                            <?php comments_number('0 comentários', 'um comentário', '% comentários'); ?>
+                        </p>
+                        <?php
+                        //chama o arquivo comments.php
+                        comments_template();
+                    } ?>
+                </p>
 <?php   }
     }
 
